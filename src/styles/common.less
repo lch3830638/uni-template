@@ -1,0 +1,30 @@
+@import './var.less';
+@import "./mixins.less";
+@import "./lib/font-icon.less";
+@import "./lib/hairline.less";
+
+button[disabled] {
+  background: #dfe1e6 !important;
+}
+
+// 文本溢出隐藏
+.text-overflow {
+  .textOverflow();
+}
+
+// 清楚浮动
+.clearfix {
+  .clearfix();
+}
+
+// uni-app按钮样式重置
+.btn-reset {
+  padding: 0;
+  font-size: 0;
+  border: none;
+  background: none;
+
+  &::after {
+    display: none;
+  }
+}
