@@ -52,7 +52,7 @@
     "@dcloudio/uni-quickapp-webview": "^2.0.0-27920200527001",
     "@dcloudio/uni-stat": "^2.0.0-27920200527001",
     "core-js": "^3.6.5",
-    "dck-request": "^0.0.4",
+    "dck-request": "^1.0.0",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
     "vue": "^2.6.11",

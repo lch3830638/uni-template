@@ -4137,10 +4137,10 @@ data-urls@^1.1.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
-dck-request@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/dck-request/-/dck-request-0.0.4.tgz#07b989349e0c997a7b359c8f1424ae93a95f1abe"
-  integrity sha512-TBewasxo0RgBzIAuBHARByiFMgiyHs+mb+waiI9sxmSEGxs4z66CgZbwicLAGJnXnIxrEEQNT4HFNuJCgZ8mIQ==
+dck-request@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/dck-request/-/dck-request-1.0.0.tgz#9b472fa2e8031bf5d3d43327d763f2dfb371f00c"
+  integrity sha512-mjLU8K71Vpvalf3Wo58u/m1qb854Fw9Rik382o4nlh0dGSTwrGdFXhhBDnVVg/B0shUBr9rx242F+SN6ZdUFQQ==
   dependencies:
     "@dcloudio/uni-app-plus" "^2.0.0-26820200330001"
     "@dcloudio/uni-h5" "^2.0.0-26820200330001"
