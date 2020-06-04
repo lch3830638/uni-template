@@ -6,7 +6,6 @@ const getGoodsListKey = `get${getGoodsListURL}`
 const getGoodsList = (params) => {
   return request({
     url: getGoodsListURL,
-    method: 'get',
     params,
   })
 }
