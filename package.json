@@ -7,7 +7,7 @@
     "build": "npm run build:h5",
     "lint": "npm run eslint & npm run stylelint",
     "eslint": "eslint --fix **/*.{js,vue}",
-    "stylelint": "stylelint --fix **/*.{js,vue}",
+    "stylelint": "stylelint --fix **/*.{scss,less,vue}",
     "build:app-plus": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build",
     "build:custom": "cross-env NODE_ENV=production uniapp-cli custom",
     "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build",
